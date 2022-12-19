@@ -1,3 +1,8 @@
+body {
+  margin: 0 10px;
+}
+
+
 .main-container {
   display: flex;
   justify-content: center;
@@ -42,16 +47,6 @@ header {
   align-self: center;
 }
 
-
-.resumebtn {
-  border: none;
-  font-size: 10px;
-  height: 23px;
-  align-self: center;
-  border-radius: 10px;
-  margin-left: 1px;
-}
-
 .resumebtn-jobtitle {
   display: flex;
 }
@@ -90,55 +85,182 @@ header {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   overflow: scroll;
 }
 
 .project-card {
   display: flex;
   align-items: flex-end;
-  width: 145px;
-  height: 179px;
+  width: 200px;
+  height: 240px;
   margin: 20px 10px;
-  min-width: 145px;
+  min-width: 200px;
   text-align: center;
   box-shadow: 3px 8px 11px rgb(224, 222, 222);
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .card-title {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   margin: 5px auto;
   padding: 0;
   text-align: left;
+  color:rgb(44, 45, 46);
 }
 
 .card-desc {
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 15px;
+  color: rgb(64, 65, 66);
 }
 
 .cardtext-container {
   margin-bottom: 15px;
+  padding-left: 10px;
 }
 
 .card1 {
-  background-image: url('https://i.imgur.com/XYzp4fn.png');
+  background-image: url('https://i.imgur.com/RORbjWM.png');
   background-size: 100%;
 }
 
 .card2 {
-  background-image: url('https://i.imgur.com/BCQ6nHZ.png');
+  background-image: url('https://i.imgur.com/SYCuKYa.png');
   background-size: 100%;
 }
 
 .card3 {
-  background-image: url('https://i.imgur.com/BCQ6nHZ.png');
+  background-image: url('https://i.imgur.com/I00uodm.png');
   background-size: 100%;
 }
 
 .card4 {
-  background-image: url('https://i.imgur.com/BCQ6nHZ.png');
+  background-image: url('https://i.imgur.com/IJT1VD1.png');
   background-size: 100%;
+}
+
+.calendly-container {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+.calendlytext-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(228, 230, 232);
+  padding: 0 15px;
+  border-radius: 15px;
+}
+
+.calendar-img {
+  width:25px;
+  height:25px;
+  align-self: center;
+  margin-left: 8px;
+}
+
+.calendar-link {
+  text-decoration: none;
+  color: rgb(89, 87, 87);
+}
+
+.resumebtn {
+  text-decoration: none;
+  color: rgb(106, 107, 108);
+  background-color: rgb(223, 224, 224);
+  align-self: center;
+  font-size: 11px;
+  border-radius: 6px;
+  padding:3px;
+}
+
+.testimonial1 {
+  font-size: 16px;
+  text-align: left;
+  padding-right: 40%;
+  font-family: serif;
+  color: rgb(71, 72, 72);
+}
+
+.testimonial2 {
+  font-size: 16px;
+  text-align: right;
+  padding-left: 40%;
+  font-family: serif;
+  color: rgb(71, 72, 72);
+}
+
+.testimonial3 {
+  font-size: 16px;
+  text-align: left;
+  padding-right: 40%;
+  font-family: serif;
+  color: rgb(71, 72, 72);
+}
+
+.testimonial4 {
+  font-size: 16px;
+  text-align: right;
+  padding-left: 40%;
+  font-family: serif;
+  color: rgb(71, 72, 72);
+}
+
+.process-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.process-container {
+ max-width: 500px;
+ text-align: left;
+ margin: auto;
+ border-radius: 10px;
+ background-color: rgb(230, 231, 231);
+}
+
+.tech-text, .tech-desc {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: rgb(71, 72, 72);
+}
+
+.tech-text {
+  width: 100px;
+  font-weight: bold;
+}
+
+.tech-desc {
+  width: 200px;
+}
+
+.myprocesstext-container {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+  color: rgb(82, 83, 83);
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  height: 100px;
+  background-color: rgb(240, 241, 241);
+}
+
+.footerlink {
+  min-width: 15px;
+  align-self: center;
+  font-family: sans-serif;
+  color: rgb(78, 79, 79);
+  margin: auto auto;
+  font-weight:500;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
 }
