@@ -1,122 +1,144 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 .main-container {
-  margin: 0;
+  display: flex;
+  justify-content: center;
 }
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.content-container {
+  width: 100%;
+  height: 700px;
+  max-width: 800px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-name {
+  font-family: serif;
+  margin-right: 10px;
+  color: rgb(64, 65, 66);
+}
+
+header {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftside-header {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.header {
+.rightside-header {
   display: flex;
-  padding: 30px;
-  justify-content: space-between;
-  background-color: rgb(231, 235, 236);
+  flex-direction: row;
+  align-self: flex-start;
+}
+
+.call, .email {
+  width: 20px;
+  align-self: center;
 }
 
 
-.my-name {
-  color:gray;
-  font-family: sans-serif;
-  font-size: 23px;
-  font-family: sans-serif;
-  margin: 10px auto 0 auto;
+.resumebtn {
+  border: none;
+  font-size: 10px;
+  height: 23px;
+  align-self: center;
+  border-radius: 10px;
+  margin-left: 1px;
+}
+
+.resumebtn-jobtitle {
+  display: flex;
+}
+
+.call {
+  margin-left: 10px;
 }
 
 .jobtitle {
-  margin: 0 auto;
-  font-size: 12px;
-  color: gray;
-}
-
-li {
-  list-style: none;
-  font-size: 12px;
-  color: rgb(41, 41, 44);
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  overflow: scroll;
-  margin: 0 18px;
-}
-
-.grid-item {
-  margin: auto 0;
-}
-
-img {
-  width: 340px;
-  margin: auto 10px;
-}
-
-.wordzzled {
-  margin: 0 auto;
-}
-
-footer {
-  height: 70px; 
-  display: flex;
-  justify-content: center;
-  background-color: rgb(231, 235, 236);
-}
-
-.footer-link {
- text-align: center;
- margin: auto 20px;
- font-family: sans-serif;
- color: gray;
- font-size: 12px;
-}
-
-#tictactoe {
-  width: 250px;
-}
-
-.dropbtn {
-  padding: 10px;
-  border: none;
+  font-size: 14px;
   font-family: sans-serif;
-  font-size: 12px;
-  color: gray;
-  background-color: rgb(231, 235, 236);
+  color: rgb(64, 65, 66);
 }
 
-@media screen and (min-width: 400px) {
-  body {
-    width: 600px;
-  }
+.hero-container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.hero-text {
+  font-size: 26px;
+  margin-bottom: 5px;
+  font-family: serif;
+  color: rgb(64, 65, 66);
+}
+
+.hero-span {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: rgb(64, 65, 66);
+}
+
+.project-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.project-card {
+  display: flex;
+  align-items: flex-end;
+  width: 145px;
+  height: 179px;
+  margin: 20px 10px;
+  min-width: 145px;
+  text-align: center;
+  box-shadow: 3px 8px 11px rgb(224, 222, 222);
+  border-radius: 5px;
+}
+
+.card-title {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 5px auto;
+  padding: 0;
+  text-align: left;
+}
+
+.card-desc {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.cardtext-container {
+  margin-bottom: 15px;
+}
+
+.card1 {
+  background-image: url('https://i.imgur.com/XYzp4fn.png');
+  background-size: 100%;
+}
+
+.card2 {
+  background-image: url('https://i.imgur.com/BCQ6nHZ.png');
+  background-size: 100%;
+}
+
+.card3 {
+  background-image: url('https://i.imgur.com/BCQ6nHZ.png');
+  background-size: 100%;
+}
+
+.card4 {
+  background-image: url('https://i.imgur.com/BCQ6nHZ.png');
+  background-size: 100%;
 }
