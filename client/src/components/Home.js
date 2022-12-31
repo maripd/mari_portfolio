@@ -67,7 +67,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="calendly-container">
+        {/* <div className="calendly-container">
           <a
             href="https://calendly.com/hello_maripd/30min"
             className="calendar-link"
@@ -77,7 +77,7 @@ const Home = () => {
               <img src={calendar} className="calendar-img" />
             </div>
           </a>
-        </div>
+        </div> */}
 
         <div className="testimony-container">
           <p className="testimonial1">
@@ -147,12 +147,12 @@ const Home = () => {
           >
             TRELLO
           </a>
-          <a
+          {/* <a
             href="https://calendly.com/hello_maripd/30min"
             className="footerlink"
           >
             CALENDAR
-          </a>
+          </a> */}
           {/* <span className="footerlink">EMAIL: marissadilig@gmail.com</span>
           <span className="footerlink">PHONE: (123) 123-2323</span> */}
         </footer>
