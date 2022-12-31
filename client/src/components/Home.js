@@ -38,13 +38,14 @@ const Home = () => {
         </div>
 
         <div className="project-container">
-          <div className="project-card card1">
-            <div className="cardtext-container">
-              <h6 className="card-title">Job Tracker</h6>
-              <span className="card-desc">React | Express | MongoDB </span>
+          <a href="https://marijobtracker1.herokuapp.com/">
+            <div className="project-card card1">
+              <div className="cardtext-container">
+                <h6 className="card-title">Job Tracker</h6>
+                <span className="card-desc">React | Express | MongoDB </span>
+              </div>
             </div>
-          </div>
-
+          </a>
           <div className="project-card card2">
             <div className="cardtext-container">
               <h6 className="card-title">Notepad</h6>
