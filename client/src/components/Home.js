@@ -46,38 +46,33 @@ const Home = () => {
               </div>
             </div>
           </a>
-          <div className="project-card card2">
-            <div className="cardtext-container">
-              <h6 className="card-title">Notepad</h6>
-              <span className="card-desc">React | Express | MongoDB </span>
-            </div>
-          </div>
-
-          <div className="project-card card3">
-            <div className="cardtext-container">
-              <h6 className="card-title">Foliage Friends</h6>
-              <span className="card-desc">React | Postgres | SQL </span>
-            </div>
-          </div>
-
-          <div className="project-card card4">
-            <div className="cardtext-container">
-              <h6 className="card-title">Wordzzled</h6>
-              <span className="card-desc">HTML | CSS | Javascript </span>
-            </div>
-          </div>
-        </div>
-        {/* <div className="calendly-container">
-          <a
-            href="https://calendly.com/hello_maripd/30min"
-            className="calendar-link"
-          >
-            <div className="calendlytext-container">
-              <p className="calendar-btn">Free for a 30 minute chat </p>
-              <img src={calendar} className="calendar-img" />
+          <a href="https://marinotepad.herokuapp.com/">
+            <div className="project-card card2">
+              <div className="cardtext-container">
+                <h6 className="card-title">Notepad</h6>
+                <span className="card-desc">React | Express | MongoDB </span>
+              </div>
             </div>
           </a>
-        </div> */}
+
+          <a href="https://foliage-friends.herokuapp.com/">
+            <div className="project-card card3">
+              <div className="cardtext-container">
+                <h6 className="card-title">Foliage Friends</h6>
+                <span className="card-desc">React | Postgres | SQL </span>
+              </div>
+            </div>
+          </a>
+
+          <a href="http://mari-wordzzled.surge.sh/">
+            <div className="project-card card4">
+              <div className="cardtext-container">
+                <h6 className="card-title">Wordzzled</h6>
+                <span className="card-desc">HTML | CSS | Javascript </span>
+              </div>
+            </div>
+          </a>
+        </div>
 
         <div className="testimony-container">
           <p className="testimonial1">
@@ -147,14 +142,6 @@ const Home = () => {
           >
             TRELLO
           </a>
-          {/* <a
-            href="https://calendly.com/hello_maripd/30min"
-            className="footerlink"
-          >
-            CALENDAR
-          </a> */}
-          {/* <span className="footerlink">EMAIL: marissadilig@gmail.com</span>
-          <span className="footerlink">PHONE: (123) 123-2323</span> */}
         </footer>
       </div>
     </div>
