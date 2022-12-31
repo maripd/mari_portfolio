@@ -19,7 +19,7 @@ const Home = () => {
                 <span className="resumebtn">RESUME</span>
               </a>
             </div>
-            <span className="jobtitle">Web Developer</span>
+            <span className="jobtitle">Full-Stack Web Developer</span>
           </div>
           <div class="rightside-header">
             <a>
