@@ -126,7 +126,7 @@ header {
 }
 
 .card2 {
-  background-image: linear-gradient(180deg,rgb(9 0 0 / 73%),hsla(34,27%,95%,.11)),url(https://i.imgur.com/SYCuKYa.png);
+  ackground-image: linear-gradient(180deg,rgb(9 0 0 / 73%),hsl(34deg 27% 95% / 29%)),url(https://i.imgur.com/SYCuKYa.png);
   background-size: 100%;
 }
 
