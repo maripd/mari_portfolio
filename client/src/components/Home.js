@@ -74,26 +74,6 @@ const Home = () => {
           </a>
         </div>
 
-        <div className="testimony-container">
-          <p className="testimonial1">
-            "Ray Of Sunshine Award- Always bringing positive energy to class!"
-          </p>
-          <p className="testimonial2">
-            "Most likely to work somewhere where productivity improvement is
-            their goal. She is on it with the apps that help improve
-            productivity and organization."
-          </p>
-          <p className="testimonial3">
-            "She has the best attitude, even when things are feeling really
-            overwhelming (for all of us!!) "
-          </p>
-          <p className="testimonial4">
-            "Your projects were always very cool and you always seem to be able
-            to get the most out of an idea and make it reach its full
-            potential..."
-          </p>
-        </div>
-
         <div className="outsideprocess-container">
           <div className="myprocesstext-container">
             <h5 className="myprocess">My Process</h5>
