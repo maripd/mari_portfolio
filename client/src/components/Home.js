@@ -30,6 +30,7 @@ const Home = () => {
             </a>
           </div>
         </header>
+
         <div className="hero-container">
           <h3 className="hero-text">
             I love to build beautiful and functional web interfaces
