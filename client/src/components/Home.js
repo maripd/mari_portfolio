@@ -30,7 +30,6 @@ const Home = () => {
             </a>
           </div>
         </header>
-
         <div className="hero-container">
           <h3 className="hero-text">
             I love to build beautiful and functional web interfaces
@@ -74,56 +73,57 @@ const Home = () => {
             </div>
           </a>
         </div>
-      </div>
 
-      <div className="outsideprocess-container">
-        <div className="myprocesstext-container">
-          <h5 className="myprocess">My Process</h5>
+        <div className="outsideprocess-container">
+          <div className="myprocesstext-container">
+            <h5 className="myprocess">My Process</h5>
+          </div>
+
+          <div className="process-container">
+            <div className="process-text">
+              <p className="tech-text">React</p>
+              <p className="tech-desc">
+                I start reviewing the design, create a component diagram and
+                then start building routes and components.
+              </p>
+            </div>
+
+            <div className="process-text">
+              <p className="tech-text">Express</p>
+              <p className="tech-desc">
+                I review which APIs and data the UI will need and continue to
+                build express routers and controllers. I also use Insomnia to
+                test my APIs
+              </p>
+            </div>
+
+            <div className="process-text">
+              <p className="tech-text">MongoDB</p>
+              <p className="tech-desc">
+                I create an Entity Relationship Diagram to help shape my
+                database.
+              </p>
+            </div>
+          </div>
         </div>
-
-        <div className="process-container">
-          <div className="process-text">
-            <p className="tech-text">React</p>
-            <p className="tech-desc">
-              I start reviewing the design, create a component diagram and then
-              start building routes and components.
-            </p>
-          </div>
-
-          <div className="process-text">
-            <p className="tech-text">Express</p>
-            <p className="tech-desc">
-              I review which APIs and data the UI will need and continue to
-              build express routers and controllers. I also use Insomnia to test
-              my APIs
-            </p>
-          </div>
-
-          <div className="process-text">
-            <p className="tech-text">MongoDB</p>
-            <p className="tech-desc">
-              I create an Entity Relationship Diagram to help shape my database.
-            </p>
-          </div>
-        </div>
+        <footer>
+          <a
+            href="https://www.linkedin.com/in/marissa-dilig/"
+            className="footerlink"
+          >
+            LINKEDIN
+          </a>
+          <a href="https://github.com/maripd" className="footerlink">
+            GITHUB
+          </a>
+          <a
+            href="https://trello.com/b/A7Rwzhqv/job-tracker-app"
+            className="footerlink"
+          >
+            TRELLO
+          </a>
+        </footer>
       </div>
-      <footer>
-        <a
-          href="https://www.linkedin.com/in/marissa-dilig/"
-          className="footerlink"
-        >
-          LINKEDIN
-        </a>
-        <a href="https://github.com/maripd" className="footerlink">
-          GITHUB
-        </a>
-        <a
-          href="https://trello.com/b/A7Rwzhqv/job-tracker-app"
-          className="footerlink"
-        >
-          TRELLO
-        </a>
-      </footer>
     </div>
   )
 }
