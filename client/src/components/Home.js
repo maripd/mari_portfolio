@@ -32,7 +32,7 @@ const Home = () => {
         </header>
         <div className="hero-container">
           <h3 className="hero-text">
-            I love to build beautiful web interfaces
+            I love to build beautiful and functional web interfaces
           </h3>
           <span className="hero-span">React - Javascript - API</span>
         </div>
@@ -73,6 +73,28 @@ const Home = () => {
             </div>
           </a>
         </div>
+
+        <a href="https://www.karenpittsphotography.com/">
+            <div className="project-card card5">
+              <div className="cardtext-container">
+                <h6 className="card-title">Karen Pitts Photography</h6>
+                <span className="card-desc">WIX</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://www.luluspianostudio.com/">
+            <div className="project-card card6">
+              <div className="cardtext-container">
+                <h6 className="card-title">Lulu Piano Studio</h6>
+                <span className="card-desc">WIX</span>
+              </div>
+            </div>
+          </a>
+  
+        </div>
+
+        
 
         <div className="outsideprocess-container">
           <div className="myprocesstext-container">
