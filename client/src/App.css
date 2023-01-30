@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0 10px;
 }
 
@@ -267,4 +267,43 @@ footer {
 
 a {
   text-decoration: none;
+} */
+
+.header-container {
+  text-align: center;
+  padding: 30px;
+}
+.myname {
+  margin: 0;
+  line-height: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.jobtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.tabs-outercontainer {
+  display: flex;
+  flex-direction: row;
+}
+.projectbutton {
+border: 1px solid rgb(222, 221, 221);
+color: rgb(87, 89, 89);
+font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(229, 228, 239);
+  justify-content: center;
+  padding: 10px;
+
+}
+.footer-span {
+  margin: 5px;
+  padding: 5px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(128, 128, 143);
 }
