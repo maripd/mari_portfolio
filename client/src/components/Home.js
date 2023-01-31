@@ -30,7 +30,12 @@ const Home = () => {
         </header>
         <div className="hero-container">
           <h3 className="hero-text">
-            I love to build beautiful and functional web interfaces
+            Motivated Software Engineer with a focus on Frontend Web Development
+            and enjoys working with visual designs and user experience.
+            Conceptualized and built 2 full-stack productivity web applications
+            using the MERN stack, and 2 single-page games that are deployed and
+            usable. Looks forward to collaborating and using programming skills
+            to build dynamic and scalable websites.
           </h3>
           <span className="hero-span">React - Javascript - API</span>
         </div>
